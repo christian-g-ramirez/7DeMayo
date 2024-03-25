@@ -9,6 +9,21 @@ body, html {
     src: url('font/sora.ttf') format('truetype'); /* Ruta a tu archivo de fuente */
 }
 
+@font-face {
+    font-family: 'MyriadPro' ;
+    src: url('font/MYRIADPRO-SEMIBOLD.OTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('font/MYRIADPRO-REGULAR.OTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('font/MYRIADPRO-BOLD.OTF') format('truetype');
+}
+
 section {
     width: 100%;
     height: 100%;
@@ -17,76 +32,202 @@ section {
     background-position: center;
     box-sizing: border-box;
 }
-  
+
+.bordeExterior {
+    border: 3px solid rgb(255, 136, 0);
+    width: 99.7%;
+    height: 99%;
+}
+
+.bordeIntermedio {
+    border: 2px solid white;
+    width: 99.6%;
+    height: 99.3%;
+}
+
+.bordeInterno {
+    border: 3px solid rgb(255, 136, 0);
+    width: 99.7%;
+    height: 99.3%;
+}
+
+.excepcion {
+    margin-top: 0px !important;
+    margin-left: 160px !important;
+}
+
+/*Aca comienzan los estilos de la seccion 1*/  
 #seccion1 { 
-    background-image: url('img/BASE PDF 7 de mayo 02_PORTADA.png'); 
+    background-image: url('img/fondoSeccion1.png'); 
     color: white;
-    font-size: 40px;
     align-items: center;
     justify-content: center;
     margin-right: 50px;
 }
 
 #seccion1 h2 {
-    position: relative; /* Agregar posición relativa para que el logo esté posicionado con respecto a este elemento */
+    font-family: 'MyriadProBold';
+    font-size: 60px;
+    text-shadow: 
+    0 0 4px #fff8dc, /* Un color crema tenue para un resplandor suave */
+    0 0 8px #fff8dc; 
 }
 
-#seccion1 img.logo {
-    left: 2px;
-    top: 50%;
-    margin-left: 10px;
+#seccion1 .imgh2 {
+    display: flex;
+    align-items: center;
+    margin-left: 390px;
+    margin-top: 230px;
+}
+
+
+#seccion1 .logo {
+    margin-top: 45px;
+    opacity: 0.7;
     z-index: 1;
-    height: 50px; /* Ajusta el tamaño vertical del logo */
-    width: auto; /* Calcula automáticamente el ancho manteniendo la relación de aspecto */
+    height: 115px; /* Ajusta el tamaño vertical del logo */
+    width: 115px; /* Calcula automáticamente el ancho manteniendo la relación de aspecto */
 }
 
+
+/*Aca comienzan los estilos de la seccion 2*/
 #seccion2 { 
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('img/fondo\ de\ seccion\ 2.png'); ;
+    display: flex;
+    position: relative;
+    align-items: start;
+    background-color: #E2E9ED; 
     color: black;
-    flex-direction: column;
+}
+
+#seccion2 .contenido {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    margin-top: 140px;
+    margin-left: 350px;
+    margin-right: auto;
+    z-index: 1;
+}
+
+#seccion2 .imagen {
+    width: 630px;
+    height: 100%;
+    margin-left: 400px;
+    margin-right: 0;
+}
+
+#seccion2 .imgh2 {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
 }
 
 #seccion2 h2 {
-    font-family: 16px;
-    margin-top: 80px;
-    margin-left: 213px;
-    margin-bottom: 1.5%;
+    font-family: 'Sora';
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
 }
 
-#seccion2 h3, p {
-    font-family: 'Sora';
-}
 
 #seccion2 h3 {
-    font-size: 16px;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-weight: 600;
     margin-top: 0%;
-    margin-left: 345px;
     margin-bottom: 0%;
+    text-align: left;
 }
 
 #seccion2 p {
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
     text-align: left;
     margin-top: 0.5%;
-    margin-left: auto; /* Establece el margen izquierdo automático */
-    margin-right: auto; /* Establece el margen derecho automático */
     max-width: 600px; 
 }
-  
+
+#seccion2 .orangeLine {
+    border: none; /* Elimina el borde predeterminado */
+    height: 5px; /* Altura de la línea */
+    background-color: orange; /* Color de fondo naranja */
+    width: 600px;
+    margin-top: 30px;
+    background: linear-gradient(to right, orange 70%, transparent);
+}
+
+#seccion2 .logoSeven {
+    width: 130px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+#seccion2 .logoEspiga {
+    width: 70px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: -20px;
+}
+
+#seccion2 img {
+    max-width: 100%; /* Asegura que la imagen no supere su contenedor */
+    height: 100%; /* Mantiene la relación de aspecto de la imagen */
+}
+
+.neblina1 {
+    position: relative;
+    height: 100%;
+}
+
+.neblina1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%; /* Ajusta el ancho del área nebulosa */
+    height: 100%;
+    background: linear-gradient(to left, transparent, #E2E9ED)
+}
+
+/*Aca comienzan los estilos de la seccion 3*/
 #seccion3 {
+    position: relative;
     display: flex;
-    background-color: #17202A;
+    background-color: #182027;
     color: white;
 }
 
 #seccion3 .contenido {
-    width: 600px; /* El contenido ocupará dos tercios del espacio */
-    margin-top: 60px;
+    width: 600px;
+    height: 100px;
+    margin-top: 135px;
+    margin-left: -100px;
 }
 
 #seccion3 .imagen {
-    width: 396px;
+    width: 400px;
     margin-right: 0%;
 }
+
+#seccion3 .logoSeven {
+    width: 130px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+#seccion3 .logoEspiga {
+    width: 90px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 400px;
+    margin-left: 0;
+}
+
 
 #seccion3 img {
     max-width: 100%; /* Asegura que la imagen no supere su contenedor */
@@ -95,9 +236,318 @@ section {
 
 #seccion3 .imagen2 {
     width: 300px;
-    height: 320px;
-    margin-top: 150px;
-    /*margin-left: -70px;*/
+    height: 330px;
+    margin-top: 160px;
+    margin-left: -130px;
 }
-  #seccion4 { background-image: url('imagen4.jpg'); }
-  #seccion5 { background-image: url('imagen5.jpg'); }
+
+.neblina {
+    position: relative;
+    height: 100%;
+}
+
+.neblina::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%; /* Ajusta el ancho del área nebulosa */
+    height: 100%;
+    background: linear-gradient(to left, transparent, #182027)
+}
+
+#seccion3 h2 {
+    font-size: 24px;
+    font-family: 'Sora';
+    font-weight: 450;
+    margin-bottom: 400px;
+    margin-left: o;
+}
+
+#seccion3 h3 {
+    font-family: 'Sora';
+    font-size: 18px;
+    font-weight: 520;
+    margin-bottom: 5px;
+}
+
+#seccion3 p {
+    font-family: 'Sora';
+    font-weight: 401;
+    font-size: 15px;
+}
+
+#seccion3 .imgh2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: -120px;
+}
+
+#seccion3 .orangeLine {
+    border: none; /* Elimina el borde predeterminado */
+    height: 5px; /* Altura de la línea */
+    background-color: orange; /* Color de fondo naranja */
+    width: 700px;
+    margin-top: 120px;
+    margin-right: 50px;
+}
+
+/*Aca comienzan los estilos de la seccion 4*/
+#seccion4 {
+    position: relative;
+    background-image: url('img/fondoseccion4.png');
+    display: flex;
+    background-color: #1c2526;
+    color: white;
+}
+
+#seccion4 .contenido {
+    position: absolute;
+    margin-top: 116px;
+    margin-left: 290px;
+    z-index: 1;
+}
+
+
+#seccion4 img {
+    max-width: 100%; /* Asegura que la imagen no supere su contenedor */
+    height: 100%; /* Mantiene la relación de aspecto de la imagen */
+}
+
+#seccion4 .logoSeven {
+    width: 130px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+#seccion4 .logoEspiga {
+    width: 90px;
+    height: 50px;
+    margin-bottom: 10px;
+}    
+
+#seccion4 .img1seccion4 {
+    width: 430px; /* Ajusta el ancho de la imagen */
+    margin-left: auto;
+}
+
+
+.neblina {
+    position: relative;
+    height: 100%;
+}
+
+.neblina::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%; /* Ajusta el ancho del área nebulosa */
+    height: 100%;
+    background: linear-gradient(to left, transparent, #182027)
+}
+
+#seccion4 h2 {
+    font-size: 24px;
+    font-family: 'Sora';
+    font-weight: 450;
+}
+
+#seccion4 h3 {
+    font-family: 'Sora';
+    font-size: 18px;
+    font-weight: 520;
+    margin-bottom: 5px;
+}
+
+.margenh3 {
+    margin-top: 45px;
+}
+
+#seccion4 p {
+    font-family: 'Sora';
+    width: 700px;
+    font-weight: 401;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#seccion4 .imgh2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 430px;
+}
+
+#seccion4 .orangeLine {
+    border: none; /* Elimina el borde predeterminado */
+    height: 5px; /* Altura de la línea */
+    background-color: orange; /* Color de fondo naranja */
+    width: 700px;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+
+  /*Aca comienzan los estilos de la seccion 5*/
+#seccion5 { 
+    display: flex;
+    position: relative;
+    color: black;
+    background-color: #E2E9ED;
+}
+
+
+#seccion5 .contenido {
+    width: 600px;
+    height: 100px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+#seccion5 .imagen {
+    width: 430px;
+    margin-right: 0%;
+}
+
+#seccion5 .logoSeven {
+    width: 130px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+#seccion5 .logoEspiga {
+    width: 90px;
+    height: 50px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+
+
+#seccion5 img {
+    max-width: 100%; /* Asegura que la imagen no supere su contenedor */
+    height: 100%; /* Mantiene la relación de aspecto de la imagen */
+}
+
+#seccion5 .imagen2 {
+    width: 200px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.neblina1 {
+    position: relative;
+    height: 100%;
+}
+
+.neblina1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%; /* Ajusta el ancho del área nebulosa */
+    height: 100%;
+    background: linear-gradient(to left, transparent, #E2E9ED)
+}
+
+.neblina2 {
+    position: relative;
+    height: 100%;
+}
+
+.neblina2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajusta el ancho del área nebulosa */
+    height: 100%;
+    background: linear-gradient(to right, transparent, #E2E9ED)
+}
+
+#seccion5 h2 {
+    font-size: 26px;
+    font-family: 'Sora';
+    font-weight: 450;
+}
+
+#seccion5 h3 {
+    font-family: 'Sora';
+    font-size: 18px;
+    font-weight: 560;
+    margin-bottom: 5px;
+}
+
+#seccion5 p {
+    font-family: 'Sora';
+    width: 700px;
+    font-weight: 401;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#seccion5 .imgh2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 405px;
+}
+
+#seccion5 .orangeLine {
+    border: none; /* Elimina el borde predeterminado */
+    height: 5px; /* Altura de la línea */
+    background-color: orange; /* Color de fondo naranja */
+    width: 700px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+/*aqui comienza la seccion 6 */
+
+#seccion6 {
+    color: black;
+    background-color: #E2E9ED;
+    align-items: center;
+    justify-content: center;
+}
+
+#seccion6 .logoSeven {
+    width: 130px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+#seccion6 .logoEspiga {
+    width: 90px;
+    height: 40px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#seccion6 p {
+    font-family: 'MyriadProRegular';
+    font-size: 55px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.2;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+#seccion6 h2 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-bottom: 3px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+#seccion6 .imgh2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
