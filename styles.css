@@ -5,12 +5,9 @@ html {
     height: 100%;
 }
 
-
 @font-face {
     font-family: 'Sora';
-    /* Nombre de la fuente */
     src: url('font/sora.ttf') format('truetype');
-    /* Ruta a tu archivo de fuente */
 }
 
 @font-face {
@@ -39,31 +36,39 @@ section {
 
 .bordeExterior {
     border: 3px solid rgb(255, 136, 0);
-    width: 99.7%;
+    width: 99.3%;
     height: 99%;
+    margin: 0% !important;
+    padding: 0% !important;
 }
 
 .bordeIntermedio {
     border: 3px solid white;
     width: 99.5%;
     height: 99.3%;
+    margin: 0%;
+    padding: 0%;
 }
 
 .bordeInterno {
     border: 3px solid rgb(255, 136, 0);
-    width: 99.7%;
-    height: 99.3%;
+    width: 99.5%;
+    height: 99.0%;
+    margin: 0%;
+    padding: 0%;
 }
 
 .excepcion {
-    margin-top: 0px !important;
-    margin-left: 160px !important;
+    margin-top: 0% !important;
+    margin-left: 16% !important;
 }
 
 img {
     max-width: 100%;
     height: 100%;
 }
+
+
 
 /*Aca comienzan los estilos de la seccion 1*/
 #seccion1 {
@@ -76,29 +81,73 @@ img {
 
     h2 {
         font-family: 'MyriadProBold';
-        font-size: 60px;
+        font-size: 3.75rem;
         text-shadow:
             0 0 4px #fff8dc,
-            /* Un color crema tenue para un resplandor suave */
             0 0 8px #fff8dc;
     }
 
     .imgh2 {
         display: flex;
         align-items: center;
-        margin-left: 390px;
-        margin-top: 230px;
+        margin-left: 33%;
+        margin-top: 18%;
     }
 
 
     .logo {
-        margin-top: 45px;
+        margin-top: 4.5%;
         opacity: 0.7;
         z-index: 1;
-        height: 115px;
-        /* Ajusta el tamaño vertical del logo */
-        width: 115px;
-        /* Calcula automáticamente el ancho manteniendo la relación de aspecto */
+        height: 14%;
+        width: 14%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #seccion1 {
+        background-image: url('img/fondoSeccion1.png');
+        background-size: 100% 100%;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-right: 0;
+
+
+        .bordeExterior,
+        .bordeIntermedio,
+        .bordeInterno {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .imgh2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
+
+        .logo {
+            opacity: 1;
+            width: 50%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            text-shadow: 0 0 4px #fff8dc, 0 0 8px #fff8dc;
+        }
+
     }
 
 }
@@ -114,41 +163,42 @@ img {
 
     .contenido {
         position: absolute;
-        width: 600px;
-        height: 100px;
-        margin-top: 140px;
-        margin-left: 350px;
+        width: 46%;
+        margin-top: 10%;
+        margin-left: 28%;
         margin-right: auto;
         z-index: 1;
     }
 
     .imagen {
-        width: 630px;
+        width: 600%;
         height: 100%;
-        margin-left: 400px;
+        margin-left: 20%;
         margin-right: 0;
+        padding: 0%;
     }
 
     .imgh2 {
         display: flex;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 4%;
+        margin-left: 5%;
     }
 
     h2 {
         font-family: 'Sora';
         font-weight: 500;
-        letter-spacing: 2px;
-        margin-top: 10px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 2px;
+        letter-spacing: 0.2%;
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0.2%;
     }
 
 
     h3 {
         font-family: 'Sora';
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
         margin-top: 0%;
         margin-bottom: 0%;
@@ -157,34 +207,33 @@ img {
 
     p {
         font-family: 'Sora', sans-serif;
-        font-size: 15px;
+        font-size: 0.9rem !important;
+        font-weight: 265;
         text-align: left;
-        margin-top: 0.5%;
-        max-width: 600px;
+        margin-top: 0.3%;
     }
 
     .orangeLine {
         border: none;
         height: 5px;
         background-color: orange;
-        width: 600px;
-        margin-top: 30px;
-        background: linear-gradient(to right, orange 70%, transparent);
+        width: 100%;
+        margin-top: 8%;
+        margin-right: 5%;
     }
 
     .logoSeven {
-        width: 130px;
-        height: 70px;
-        margin-top: 10px;
-        margin-left: 0px;
+        width: 13%;
+        height: 10%;
+        margin-top: 1%;
+        margin-left: 0%;
     }
 
     .logoEspiga {
-        width: 70px;
-        height: 40px;
-        margin-top: 10px;
-        margin-bottom: 5px;
-        margin-left: -20px;
+        width: 30% !important;
+        height: 30% !important;
+        margin-top: 1%;
+        margin-bottom: 0.5%;
     }
 
 
@@ -203,6 +252,28 @@ img {
         background: linear-gradient(to left, transparent, #E2E9ED)
     }
 
+    @media (max-width: 768px) {
+
+        .contenido {
+            width: 80%;
+            height: 100% !important;
+            top: 10%;
+            margin-left: 10%;
+            margin-top: 2%;
+        }
+
+        .imagen {
+            display: none;
+        }
+
+        h2,
+        h3,
+        p {
+            font-size: 0.65rem !important;
+
+        }
+
+    }
 }
 
 /*Aca comienzan los estilos de la seccion 3*/
@@ -214,36 +285,38 @@ img {
 
 
     .contenido {
-        width: 600px;
-        height: 100px;
-        margin-top: 135px;
-        margin-left: -100px;
+        width: 700%;
+        height: 100%;
+        margin-top: 12%;
+        margin-left: 0%;
     }
 
     .imagen {
-        width: 400px;
+        width: 400%;
+        height: 100vh;
         margin-right: 0%;
     }
 
     .logoSeven {
-        width: 130px;
-        height: 70px;
-        margin-top: 10px;
+        width: 13%;
+        height: 10%;
+        margin-top: 1%;
+        margin-left: 0%;
     }
 
     .logoEspiga {
-        width: 90px;
-        height: 50px;
-        margin-top: 10px;
-        margin-bottom: 400px;
-        margin-left: 0;
+        width: 80% !important;
+        height: 8% !important;
+        margin-top: 1%;
+        margin-bottom: 300%;
+        padding: 0%;
     }
 
     .imagen2 {
-        width: 300px;
-        height: 330px;
-        margin-top: 160px;
-        margin-left: -130px;
+        width: 340% !important;
+        height: 53%;
+        margin-top: 13%;
+        margin-left: -120px;
     }
 
     .neblina {
@@ -255,47 +328,82 @@ img {
         content: "";
         position: absolute;
         top: 0;
-        left: 0;
+        margin-left: 0%;
         width: 80%;
         height: 100%;
         background: linear-gradient(to left, transparent, #182027)
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-family: 'Sora';
         font-weight: 450;
-        margin-bottom: 400px;
+        margin-bottom: 310%;
         margin-left: o;
     }
 
     h3 {
         font-family: 'Sora';
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 520;
-        margin-bottom: 5px;
+        margin-bottom: 0.5rem;
     }
 
     p {
         font-family: 'Sora';
-        font-weight: 401;
-        font-size: 15px;
+        font-weight: 300;
+        font-size: 0.9375rem;
     }
 
     .imgh2 {
         display: flex;
         align-items: center;
-        margin-bottom: 50px;
-        margin-left: -120px;
+        margin-bottom: 5%;
+        margin-left: -10%;
     }
 
     .orangeLine {
         border: none;
         height: 5px;
         background-color: orange;
-        width: 700px;
-        margin-top: 120px;
-        margin-right: 50px;
+        width: 100%;
+        margin-top: 7%;
+    }
+
+    @media (max-width: 768px) {
+
+        #seccion3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center !important;
+            height: 100vh;
+        }
+
+        .contenido {
+            width: 80% !important;
+            height: 100% !important;
+            top: 10%;
+            margin-left: -50%;
+            margin-right: 10%;
+            margin-top: 30%;
+            padding: 0;
+        }
+
+        .imagen, .imagen2 {
+            display: none;
+        }
+
+        h2, h3, p {
+            font-size: 0.65rem !important;
+
+        }
+
+        .imgh2 {
+            margin-bottom: 50%;
+            margin-right: 0%;
+            margin-left: 20%;
+        }
     }
 
 }
@@ -311,25 +419,25 @@ img {
 
     .contenido {
         position: absolute;
-        margin-top: 116px;
-        margin-left: 290px;
+        margin-top: 9.50%;
+        margin-left: 22%;
         z-index: 1;
     }
 
     .logoSeven {
-        width: 130px;
-        height: 70px;
-        margin-top: 10px;
+        width: 13%;
+        height: 10%;
+        margin-top: 1%;
     }
 
     .logoEspiga {
         width: 90px;
         height: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 5%;
     }
 
-    .img1seccion4 {
-        width: 430px;
+    .imagen {
+        width: 43%;
         margin-left: auto;
     }
 
@@ -350,43 +458,81 @@ img {
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-family: 'Sora';
         font-weight: 450;
     }
 
     h3 {
         font-family: 'Sora';
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 520;
-        margin-bottom: 5px;
+        margin-bottom: 0.5%;
     }
 
     .margenh3 {
-        margin-top: 45px;
+        margin-top: 4%;
     }
 
     p {
         font-family: 'Sora';
-        width: 700px;
-        font-weight: 401;
-        font-size: 15px;
-        margin-top: 5px;
+        width: 70%;
+        font-weight: 301;
+        font-size: 0.9375rem !important;
+        margin-top: 0.5%;
     }
 
     .imgh2 {
         display: flex;
         align-items: center;
-        margin-bottom: 430px;
+        margin-bottom: 35%;
     }
 
     .orangeLine {
         border: none;
         height: 5px;
         background-color: orange;
-        width: 700px;
-        margin-top: 80px;
-        margin-right: 50px;
+        width: 70%;
+        margin-top: 15%;
+        margin-right: 30%;
+    }
+
+    @media (max-width: 768px) {
+
+        #seccion3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center !important;
+            height: 100vh;
+        }
+
+        .contenido {
+            width: 100% !important;
+            height: 100% !important;
+            top: 10%;
+            margin-right: 10%;
+            padding: 0;
+        }
+
+        .imagen {
+            display: none;
+        }
+
+        h2, h3, p {
+            font-size: 0.65rem !important;
+
+        }
+
+        h3 {
+            width: 77% !important;
+        }
+
+        .imgh2 {
+            margin-bottom: 150%;
+            margin-right: 0%;
+            margin-left: 20%;
+        }
     }
 
 }
@@ -401,37 +547,37 @@ img {
 
 
     .contenido {
-        width: 600px;
-        height: 100px;
-        margin-top: 110px;
-        margin-left: auto;
+        position: absolute;  
+        margin-top: 11%;
+        margin-left: 20%;
         margin-right: auto;
         z-index: 1;
     }
 
     .imagen {
-        width: 430px;
+        width: 60%;
         margin-right: 0%;
+        margin-left: 50%;
     }
 
     .logoSeven {
-        width: 130px;
-        height: 70px;
-        margin-top: 10px;
+        width: 13%;
+        height: 10%;
+        margin-top: 1%;
     }
 
     .logoEspiga {
         width: 90px;
         height: 50px;
-        margin-left: -5px;
-        margin-bottom: 10px;
+        margin-left: -0.5%;
+        margin-bottom: 1%;
     }
 
 
     .imagen2 {
-        width: 200px;
-        height: 120px;
-        margin-top: 20px;
+        width: 20%;
+        height: 6%;
+        margin-top: 2%;
     }
 
     .neblina1 {
@@ -465,40 +611,78 @@ img {
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 1.5rem;
         font-family: 'Sora';
         font-weight: 450;
     }
 
     h3 {
         font-family: 'Sora';
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 560;
-        margin-bottom: 5px;
+        margin-bottom: 0.5%;
     }
 
     p {
         font-family: 'Sora';
-        width: 700px;
+        width: 70%;
         font-weight: 401;
-        font-size: 15px;
-        margin-top: 5px;
+        font-size: 0.9375rem;
+        margin-top: 0.5%;
     }
 
     .imgh2 {
         display: flex;
         align-items: center;
-        margin-bottom: 435px;
+        margin-bottom: 30%;
     }
 
     .orangeLine {
         border: none;
         height: 5px;
         background-color: rgb(255, 115, 0);
-        width: 700px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        margin-right: 50px;
+        width: 350%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        margin-right: 5%;
+    }
+
+    @media (max-width: 768px) {
+
+        #seccion3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center !important;
+            height: 100vh;
+        }
+
+        .contenido {
+            width: 100% !important;
+            height: 100% !important;
+            top: 10%;
+            margin-right: 10%;
+            padding: 0;
+        }
+
+        .imagen {
+            display: none;
+        }
+
+        h2, h3, p {
+            font-size: 0.65rem !important;
+
+        }
+
+        h3 {
+            width: 77% !important;
+        }
+
+        .imgh2 {
+            margin-bottom: 150%;
+            margin-right: 0%;
+            margin-left: 20%;
+        }
     }
 
 }
@@ -506,6 +690,7 @@ img {
 /*Aca comienza la seccion 6 */
 
 #seccion6 {
+    display: flex;
     color: black;
     background-color: #E2E9ED;
     align-items: center;
@@ -513,36 +698,36 @@ img {
 
 
     .logoSeven {
-        width: 130px;
-        height: 70px;
-        margin-top: 10px;
+        width: 13%;
+        height: 10%;
+        margin-top: 1%;
     }
 
     .logoEspiga {
         width: 90px;
         height: 40px;
-        margin-top: -5px;
-        margin-bottom: 0px;
+        margin-top: 0%;
+        margin-bottom: 2%;
         margin-left: 0px;
     }
 
     p {
         font-family: 'MyriadProRegular';
-        font-size: 55px;
+        font-size: 3.4375rem;
         font-weight: 100;
         text-align: left;
         line-height: 1.2;
-        margin-left: 150px;
-        margin-bottom: 0px;
-        margin-top: 25px;
+        margin-left: 15%;
+        margin-bottom: 0%;
+        margin-top: 2%;
     }
 
     h2 {
         font-family: 'Sora', sans-serif;
         font-weight: 300;
-        font-size: 30px;
-        margin-left: 200px;
-        margin-bottom: 3px;
+        font-size: 1.875rem;
+        margin-left: 20%;
+        margin-bottom: 1%;
         margin-right: 0px;
         margin-top: 0px;
     }
@@ -550,7 +735,46 @@ img {
     .imgh2 {
         display: flex;
         align-items: center;
-        margin-bottom: 0px;
+        margin-bottom: 0%;
     }
+
+    @media (max-width: 768px) {
+
+        #seccion6 {
+            background-size: 100% 100%;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-right: 0;
+        }   
+    
+            .bordeExterior,
+            .bordeIntermedio,
+            .bordeInterno {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            .logo {
+                width: 50%;
+                height: auto;
+            }
+    
+            h2 {
+                font-size: 1.8rem !important;
+            }
+
+            p {
+                font-size: 2rem !important;
+                margin-left: 5%;
+            }
+
+    }    
 
 }
