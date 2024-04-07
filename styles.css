@@ -1,3 +1,576 @@
+/*X-Small devices (portrait phones, less than 576px)*/
+/*Small devices (portrait phones, 575px and down)*/
+@media (max-width: 575px) {
+
+    .logoSeven {
+        width: 25% !important;
+        margin-top: 5% !important;
+    }
+
+    #seccion2 p {
+        font-weight: 400 !important;
+    }
+
+    #seccion2 .imagen {
+        display: none;
+    }
+
+    #seccion3 .imgh2 {
+        margin-bottom: 105% !important;
+    }
+
+    #seccion3 .logoEspiga {
+        width: 25% !important;
+        height: auto;
+    }
+
+    #seccion3 h2 {
+        font-size: 1.5rem !important;
+        margin-top: 10% !important;
+    }
+
+
+    #seccion3 .imagen,
+    .imagen2 {
+        display: none;
+    }
+
+
+    #seccion4 .orangeLine {
+        margin-top: 2% !important;
+    }
+
+    #seccion4 h3 {
+        width: 70%;
+    }
+
+    #seccion4 p {
+        width: 108% !important;
+        font-weight: 300 !important;
+    }
+
+    #seccion4 .logoEspiga {
+        width: 25% !important;
+    }
+
+    #seccion4 .imagen {
+        display: none;
+    }
+
+    #seccion5 .imagen {
+        display: none;
+    }
+
+    #seccion5 p {
+        width: 95% !important;
+        font-weight: 450 !important;
+    }
+
+    #seccion5 h2 {
+        font-size: 0.8rem;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .imgh2 {
+        position: absolute;
+    }
+
+    #seccion1 .logo {
+        width: 25% !important;
+    }
+
+    #seccion2 h2 {
+        font-size: 1.5rem !important;
+    }
+
+    #seccion2 .imagen {
+        margin-left: 64% !important;
+    }
+
+    #seccion2 .contenido {
+        width: 68% !important;
+        margin-left: 19% !important;
+    }
+
+    #seccion3 .logoEspiga {
+        width: 25% !important;
+    }
+
+    #seccion3 .imgh2 {
+        margin-left: 35% !important;
+        margin-top: 5% !important;
+    }
+
+    #seccion3 h2 {
+        margin-top: 10%;
+    }
+
+    #seccion3 .contenido {
+        margin-top: 25% !important;
+        margin-left: 27% !important;
+        width: 48% !important;
+    }
+
+    #seccion3 .imagen2 {
+        max-width: 25% !important;
+        margin-top: 26% !important;
+    }
+
+    #seccion3 .imagen {
+        max-width: 30% !important;
+        margin-left: 45% !important;
+    }
+
+    #seccion3 p {
+        width: 101% !important;
+    }
+
+
+    #seccion4 .contenido {
+        width: 80% !important ;
+        margin-left: 19% !important;
+        margin-top: 20% !important;
+    }
+
+    #seccion4 .imgh2{
+        margin-top: 7% !important;
+    }
+
+    #seccion4 p {
+        font-weight: 500 !important;
+    }
+
+
+    #seccion5 .imgh2 {
+        margin-left: 40% !important;
+        margin-top: 10% !important;
+    }
+
+    #seccion5 .contenido {
+        margin-left: 20% !important;
+        width: 80% !important;
+    }
+
+    #seccion6 .imgh2 {
+        margin-left: 30%;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #seccion1 .imgh2 {
+        margin-left: 24% !important;
+        margin-top: 24% !important;
+    }
+
+    #seccion2 h2 {
+        font-size: 1.2rem !important;
+    }
+
+    #seccion2 .imgh2 {
+        margin-left: 2% !important;
+    }
+
+    #seccion2 .logoEspiga {
+        width: 15% !important;
+        margin-bottom: 4% !important;
+        margin-left: -4% !important;
+    }
+
+    #seccion2 .contenido {
+        width: 58% !important;
+        margin-left: 20% !important;
+        margin-top: 15% !important;
+    }
+
+    #seccion2 p {
+        width: 101%;
+        font-size: 0.6rem !important;
+    }
+
+    #seccion2 .imagen {
+        margin-left: 61% !important;
+    }
+
+    #seccion3 .imagen2 {
+        margin-top: 18% !important;
+        max-width: 22% !important;
+    }
+
+    #seccion3 .imagen {
+        margin-left: 46% !important;
+    }
+
+    #seccion3 .contenido {
+        margin-top: 16% !important;
+        width: 55% !important;
+    }
+
+    #seccion3 h3 {
+        font-size: 1rem !important;
+    }
+
+    #seccion3 p {
+        font-size: 0.7rem !important;
+    }
+
+    #seccion3 .logoEspiga {
+        width: 25% !important;
+        height: auto !important;
+    }
+
+    #seccion3 .imgh2 {
+        margin-bottom: 43% !important;
+    }
+
+    #seccion4 .imgh2 {
+        position: absolute !important;
+        margin-left: 20% !important;
+        margin-top: 5% !important;
+    }
+
+    #seccion4 p {
+        font-size: 0.7rem !important;
+    }
+
+    #seccion4 .contenido {
+        margin-top: 13% !important;
+        margin-left: 22% !important;
+    }
+
+    #seccion5 .imgh2 {
+        position: absolute !important;
+        margin-left: 30% !important;
+        margin-top: 5% !important;
+    }
+
+    #seccion5 h3 {
+        font-size: 1rem !important;
+    }
+
+    #seccion5 p {
+        font-size: 0.7rem !important;
+    }
+
+    #seccion5 .imagen {
+        margin-left: 65% !important;
+    }
+
+    #seccion6 p {
+        font-size: 3rem !important;
+    }
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #seccion2 p {
+        font-size: 0.65rem !important;
+    }
+
+    #seccion2 .contenido {
+        margin-top: 15% !important;
+    }
+
+    #seccion2 .imagen {
+        margin-left: 57% !important;
+    }
+
+    #seccion2 .logoEspiga {
+        width: 90px !important;
+        margin-bottom: 4% !important;
+    }
+
+    #seccion3 p {
+        font-size: 0.75rem !important;
+    }
+
+    #seccion3 h3 {
+        font-size: 1rem !important;
+    }
+
+    #seccion3 .imagen2 {
+        max-width: 22% !important;
+        margin-top: 17% !important;
+    }
+
+    #seccion3 .imagen {
+        margin-left: 48% !important;
+    }
+
+    #seccion3 .imgh2 {
+        position: absolute;
+        margin-bottom: 0% !important;
+        margin-left: 11% !important;
+        margin-top: 10%;
+    }
+
+    #seccion3 .logoEspiga {
+        width: 11% !important;
+        margin-bottom: 2%;
+    }
+
+    #seccion3 .contenido {
+        width: 47% !important;
+        margin-top: 15% !important;
+    }
+
+    #seccion4 .imgh2 {
+        margin-top: 7%;
+        margin-left: 8%;
+    }
+
+    #seccion4 .logoEspiga {
+        width: 25% !important;
+    }
+
+    #seccion4 h3 {
+        font-size: 1rem !important;
+    }
+
+    #seccion4 p {
+        font-size: 0.75rem !important;
+    }
+
+    #seccion4 .contenido {
+        margin-top: 12% !important;
+    }
+
+    #seccion5 h2 {
+        font-size: 1.3rem !important;
+    }
+
+    #seccion5 .imgh2 {
+        margin-bottom: 36% !important;
+        margin-left: 9% !important;
+    }
+
+    #seccion5 h3 {
+        font-size: 1rem !important;
+    }
+
+    #seccion5 p {
+        font-size: 0.75rem !important;
+    }
+
+    #seccion6 p {
+        font-size: 3rem !important;
+    }
+    
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+    
+    .logoSeven {
+        width: 10% !important;
+    }
+    
+    #seccion1 .imgh2 {
+        margin-left: 31% !important;
+    }
+
+    #seccion2 .imgh2 {
+        margin-top: 6% !important;
+        margin-left: 13% !important;
+    }
+
+    #seccion2 .imagen {
+        margin-left: 60% !important;
+    }
+
+    #seccion2 .logoEspiga {
+        width: 11% !important;
+        margin-bottom: 3% !important;
+        margin-left: -3%;
+    }
+
+    #seccion2 p {
+        font-size: 0.rem !important;
+    }
+
+    #seccion2 .contenido {
+        margin-top: 11% !important;
+        margin-left: 25% !important;
+    }
+
+    #seccion3 .imagen {
+        margin-left: 42% !important;
+    }
+
+    #seccion3 .imgh2 {
+        position: absolute;
+        margin-bottom: 0% !important;
+        margin-top: 7% !important;
+        margin-left: 10% !important;
+    }
+
+    #seccion3 .logoEspiga {
+        width: 9% !important;
+        margin-bottom: 1% !important;
+    }
+
+    #seccion3 p {
+        font-size: 0.85rem !important;
+    }
+
+    #seccion3 h3 {
+        font-size: 1rem !important;
+    }
+
+    #seccion4 {
+        background-repeat: no-repeat;
+        background-size: auto 97% !important;
+        background-position: left 184%;
+    }
+
+    #seccion4 .imgh2 {
+        margin-top: 8% !important;
+        margin-left: 7%;
+    }
+
+    #seccion4 h3 {
+        font-size: 1rem !important;
+    }
+
+    #seccion4 p {
+        font-size: 0.85rem !important;
+    }
+
+    #seccion4 .contenido {
+        margin-top: 13% !important;
+        margin-left: 19% !important;
+    }
+
+    #seccion4 .orangeLine {
+        margin-top: 10% !important;
+    }
+
+    #seccion5 .imgh2 {
+        position: absolute;
+        margin-left: 10% !important;
+        margin-top: 7% !important;
+    }
+
+    #seccion5 h3 {
+        font-size: 1rem !important;
+    }
+
+    #seccion5 p {
+        font-size: 0.85rem !important;
+    }
+
+    #seccion5 .imagen {
+        width: 100% !important;
+        margin-left: 70% !important;
+    }
+
+    #seccion5 .imagen2 {
+        width: 15% !important;
+    }
+
+    #seccion5 .contenido {
+        width: 70%;
+    }
+
+    #seccion6 p {
+        font-size: 2.65rem !important;
+    }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1900px){
+    #seccion2 .imagen {
+        margin-left: 64% !important;
+    }
+
+    #seccion2 .logoEspiga {
+        width: 8% !important;
+        margin-bottom: 3% !important;
+        margin-left: -2%;
+    }
+
+    #seccion2 .imgh2 {
+        position: absolute;
+        margin-left: 16% !important;
+    }
+
+    #seccion3 .logoEspiga {
+        width: 8% !important;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    #seccion3 .imagen {
+        margin-left: 45% !important;
+    }
+
+    #seccion3 .imgh2 {
+        position: absolute;
+        margin-top: 7% !important;
+        margin-left: 11% !important;
+    }
+
+    #seccion4 {
+        background-repeat: no-repeat;
+        background-size: auto 97% !important;
+        background-position: left 184%;
+    }
+
+    #seccion4 .imgh2 {
+        margin-top: 8% !important;
+        margin-left: 10% !important;
+    }
+
+    #seccion4 .contenido {
+        margin-top: 11.5% !important;
+        margin-left: 18% !important;
+    }
+
+    #seccion4 .orangeLine {
+        margin-top: 5% !important;
+    }
+
+    #seccion5 .imagen {
+        margin-left: 70% !important;
+    }
+
+    #seccion5 .imagen2 {
+        width: 14% !important;
+    }
+
+    #seccion5 .imgh2 {
+        position: absolute;
+        margin-left: 12% !important;
+        margin-top: 6.5% !important;
+    }
+
+    #seccion5 .contenido {
+        width: 63%;
+        margin-left: 25% !important;
+        margin-top: 9% !important;
+    }
+
+    #seccion5 .orangeLine {
+        width: 450% !important;
+    }
+
+    #seccion6 p {
+        font-size: 3rem !important;
+    }
+}
+
+@media (min-width: 1901px) {
+    
+    #seccion2 .imagen {
+        margin-left: 50%;
+    }
+}
+
 body,
 html {
     margin: 0;
@@ -105,7 +678,7 @@ img {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     #seccion1 {
         background-image: url('img/fondoSeccion1.png');
@@ -164,14 +737,14 @@ img {
     .contenido {
         position: absolute;
         width: 46%;
-        margin-top: 10%;
+        margin-top: 12%;
         margin-left: 28%;
         margin-right: auto;
         z-index: 1;
     }
 
     .imagen {
-        width: 600%;
+        width: 100%;
         height: 100%;
         margin-left: 20%;
         margin-right: 0;
@@ -180,34 +753,32 @@ img {
 
     .imgh2 {
         display: flex;
+        position: absolute;
         align-items: center;
-        margin-top: 4%;
-        margin-left: 5%;
+        margin-top: 8%;
+        margin-left: 13%;
     }
 
     h2 {
         font-family: 'Sora';
-        font-weight: 500;
-        letter-spacing: 0.2%;
-        margin-top: 1%;
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-bottom: 0.2%;
+        font-weight: 425;
+        font-size: 1.4rem;
+        margin-bottom: 4%;
     }
 
 
     h3 {
         font-family: 'Sora';
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-weight: 600;
         margin-top: 0%;
-        margin-bottom: 0%;
+        margin-bottom: 2%;
         text-align: left;
     }
 
     p {
         font-family: 'Sora', sans-serif;
-        font-size: 0.9rem !important;
+        font-size: 0.8rem;
         font-weight: 265;
         text-align: left;
         margin-top: 0.3%;
@@ -223,17 +794,17 @@ img {
     }
 
     .logoSeven {
+        position: absolute;
         width: 13%;
-        height: 10%;
+        height: auto;
         margin-top: 1%;
         margin-left: 0%;
     }
 
     .logoEspiga {
-        width: 30% !important;
-        height: 30% !important;
-        margin-top: 1%;
-        margin-bottom: 0.5%;
+        width: 30%;
+        height: auto;
+        margin-bottom: 1%;
     }
 
 
@@ -252,25 +823,46 @@ img {
         background: linear-gradient(to left, transparent, #E2E9ED)
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
 
         .contenido {
-            width: 80%;
-            height: 100% !important;
-            top: 10%;
-            margin-left: 10%;
-            margin-top: 2%;
+            width: 90%;
+            top: 13%;
+            margin-left: 5%;
         }
 
-        .imagen {
-            display: none;
+        .imgh2 {
+            position: absolute;
+            margin-left: 31% !important;
+            z-index: 1;
         }
 
-        h2,
+        .neblina1 {
+            position: relative;
+            height: 100%;
+        }
+
+        .neblina1::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 95%;
+            height: 100%;
+            background: linear-gradient(to left, transparent, #E2E9ED)
+        }
+
+
+
         h3,
         p {
             font-size: 0.65rem !important;
 
+        }
+
+        .logoEspiga {
+            width: 25% !important;
+            margin-bottom: 2%;
         }
 
     }
@@ -285,38 +877,37 @@ img {
 
 
     .contenido {
-        width: 700%;
-        height: 100%;
+        position: absolute;
+        width: 41%;
         margin-top: 12%;
-        margin-left: 0%;
+        margin-left: 23%;
+        z-index: 1;
     }
 
     .imagen {
         width: 400%;
-        height: 100vh;
         margin-right: 0%;
+        margin-left: 31%;
     }
 
     .logoSeven {
+        position: absolute;
         width: 13%;
-        height: 10%;
+        height: auto;
         margin-top: 1%;
         margin-left: 0%;
     }
 
     .logoEspiga {
-        width: 80% !important;
-        height: 8% !important;
+        width: 80%;
         margin-top: 1%;
-        margin-bottom: 300%;
         padding: 0%;
     }
 
     .imagen2 {
-        width: 340% !important;
+        width: 340%;
         height: 53%;
         margin-top: 13%;
-        margin-left: -120px;
     }
 
     .neblina {
@@ -338,21 +929,19 @@ img {
         font-size: 1.5rem;
         font-family: 'Sora';
         font-weight: 450;
-        margin-bottom: 310%;
-        margin-left: o;
     }
 
     h3 {
         font-family: 'Sora';
-        font-size: 1.125rem;
+        font-size: 1.3rem;
         font-weight: 520;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.5%;
     }
 
     p {
         font-family: 'Sora';
-        font-weight: 300;
-        font-size: 0.9375rem;
+        font-weight: 350;
+        font-size: 0.85rem;
     }
 
     .imgh2 {
@@ -370,39 +959,34 @@ img {
         margin-top: 7%;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
 
         #seccion3 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items:center !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
             height: 100vh;
         }
 
         .contenido {
-            width: 80% !important;
-            height: 100% !important;
-            top: 10%;
-            margin-left: -50%;
-            margin-right: 10%;
-            margin-top: 30%;
+            position: absolute;
+            width: 90%;
+            margin-top: 45%;
+            margin-left: 5%;
             padding: 0;
+            z-index: 1;
         }
 
-        .imagen, .imagen2 {
-            display: none;
-        }
 
-        h2, h3, p {
+        h3,
+        p {
             font-size: 0.65rem !important;
 
         }
 
         .imgh2 {
-            margin-bottom: 50%;
-            margin-right: 0%;
-            margin-left: 20%;
+            margin-left: 26%;
         }
     }
 
@@ -413,7 +997,7 @@ img {
     position: relative;
     background-image: url('img/fondoseccion4.png');
     display: flex;
-    background-color: #1c2526;
+    background-color: #182027;
     color: white;
 
 
@@ -425,8 +1009,9 @@ img {
     }
 
     .logoSeven {
+        position: absolute;
         width: 13%;
-        height: 10%;
+        height: auto;
         margin-top: 1%;
     }
 
@@ -478,13 +1063,12 @@ img {
         font-family: 'Sora';
         width: 70%;
         font-weight: 301;
-        font-size: 0.9375rem !important;
+        font-size: 0.9375rem;
         margin-top: 0.5%;
     }
 
     .imgh2 {
         display: flex;
-        align-items: center;
         margin-bottom: 35%;
     }
 
@@ -497,41 +1081,37 @@ img {
         margin-right: 30%;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
 
-        #seccion3 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items:center !important;
+        #seccion4 {
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
             height: 100vh;
         }
 
+
         .contenido {
-            width: 100% !important;
-            height: 100% !important;
-            top: 10%;
-            margin-right: 10%;
-            padding: 0;
+            position: absolute;
+            width: 81% !important;
+            margin-top: 38%;
+            margin-left: 5%;
+            z-index: 1;
         }
 
-        .imagen {
-            display: none;
-        }
 
-        h2, h3, p {
+        h3,
+        p {
             font-size: 0.65rem !important;
 
         }
 
-        h3 {
-            width: 77% !important;
-        }
-
         .imgh2 {
-            margin-bottom: 150%;
-            margin-right: 0%;
-            margin-left: 20%;
+            position: absolute;
+            margin-left: 28%;
+            margin-top: 15%;
+            z-index: 1;
         }
     }
 
@@ -547,7 +1127,7 @@ img {
 
 
     .contenido {
-        position: absolute;  
+        position: absolute;
         margin-top: 11%;
         margin-left: 20%;
         margin-right: auto;
@@ -561,8 +1141,9 @@ img {
     }
 
     .logoSeven {
+        position: absolute;
         width: 13%;
-        height: 10%;
+        height: auto;
         margin-top: 1%;
     }
 
@@ -647,41 +1228,39 @@ img {
         margin-right: 5%;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
 
-        #seccion3 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items:center !important;
+        #seccion5 {
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
             height: 100vh;
         }
 
         .contenido {
-            width: 100% !important;
-            height: 100% !important;
-            top: 10%;
-            margin-right: 10%;
-            padding: 0;
+            width: 95%;
+            top: 17%;
+            margin-left: 5%;
         }
 
-        .imagen {
-            display: none;
-        }
 
-        h2, h3, p {
+        h3,
+        p {
             font-size: 0.65rem !important;
 
         }
 
         h3 {
             width: 77% !important;
+            font-weight: 700 !important;
         }
 
         .imgh2 {
-            margin-bottom: 150%;
-            margin-right: 0%;
-            margin-left: 20%;
+            position: absolute;
+            margin-top: 18%;
+            margin-left: 25%;
+            z-index: 1;
         }
     }
 
@@ -738,7 +1317,7 @@ img {
         margin-bottom: 0%;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
 
         #seccion6 {
             background-size: 100% 100%;
@@ -749,32 +1328,33 @@ img {
             align-items: center;
             height: 100vh;
             margin-right: 0;
-        }   
-    
-            .bordeExterior,
-            .bordeIntermedio,
-            .bordeInterno {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-    
-            .logo {
-                width: 50%;
-                height: auto;
-            }
-    
-            h2 {
-                font-size: 1.8rem !important;
-            }
+        }
 
-            p {
-                font-size: 2rem !important;
-                margin-left: 5%;
-            }
+        .bordeExterior,
+        .bordeIntermedio,
+        .bordeInterno {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    }    
+        .logo {
+            width: 50%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 1.8rem !important;
+        }
+
+        p {
+            font-size: 2rem !important;
+            margin-left: 10%;
+            margin-top: 10%;
+        }
+
+    }
 
 }
