@@ -19,29 +19,27 @@
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-    
+
     #seccion-3 {
         background-image: linear-gradient(to right, #182027 60%, rgba(226, 233, 237, 0)), url('img/img2seccion3.png');
         background-color: #182027;
         background-size: cover;
         background-position: right;
         box-sizing: border-box;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
     #seccion-3 {
-        background-image: 
+        background-image:
             linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
             linear-gradient(to left, rgba(24, 32, 39, 0) -60%, #182027),
             url('img/img1seccion3.png'),
             url('img/img2seccion3.png');
-        background-position: left 35%, 242% top;
+        background-position: left 30%, 242% bottom;
         background-repeat: no-repeat;
-        background-size: 26% 45%, 80% 100%;
+        background-size: 26% auto, 80% auto;
     }
 
 }
@@ -49,14 +47,14 @@
 @media screen and (min-width: 1200px) {
 
     #seccion-3 {
-        background-image: 
+        background-image:
             linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
             linear-gradient(to left, rgba(24, 32, 39, 0) -50%, #182027),
             url('img/img1seccion3.png'),
             url('img/img2seccion3.png');
-        background-position: left 38%, 268% top;
+        background-position: left 38%, 120% bottom;
         background-repeat: no-repeat;
-        background-size: 21% 45%, 80% 100%;
+        background-size: 21% auto, 54% auto;
     }
 
 }
@@ -89,29 +87,27 @@
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-    
+
     #seccion-4 {
         background-image: linear-gradient(to right, #182027 60%, rgba(226, 233, 237, 0)), url('img/img1seccion4.png');
         background-color: #182027;
         background-size: cover;
-        background-position: right 50%;
+        background-position: right;
         box-sizing: border-box;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
     #seccion-4 {
-        background-image: 
+        background-image:
             linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
-            linear-gradient(to left, rgba(24, 32, 39, 0) -20%, #182027),
+            linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
             url('img/img2seccion4.png'),
             url('img/img1seccion4.png');
-        background-position: left 35%, 242% top;
+        background-position: left 30%, -102% bottom;
         background-repeat: no-repeat;
-        background-size: 26% 45%,80% 100%;
+        background-size: 25% auto, 147% auto;
     }
 
 }
@@ -119,20 +115,20 @@
 @media screen and (min-width: 1200px) {
 
     #seccion-4 {
-        background-image: 
+        background-image:
             linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
             linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
             url('img/img2seccion4.png'),
             url('img/img1seccion4.png');
-        background-position: left 38%, 268% top;
+        background-position: left 38%, -1312% top;
         background-repeat: no-repeat;
-        background-size: 21% 45%, 80% 100%;
+        background-size: 18% auto, 104% auto;
     }
 
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-    
+
     #seccion-5 {
         background-image: linear-gradient(to right, #E2E9ED 60%, rgba(226, 233, 237, 0)), url('img/img2seccion5.png');
         background-color: #E2E9ED;
@@ -145,14 +141,14 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
     #seccion-5 {
-        background-image: 
+        background-image:
             linear-gradient(to right, rgba(24, 32, 39, 0) 55%, #E2E9ED),
             linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #E2E9ED),
             url('img/img1seccion5.png'),
             url('img/img2seccion5.png');
-        background-position: 35% 86%, right top;
+        background-position: 36% 85%, 150% bottom;
         background-repeat: no-repeat;
-        background-size: 19% 18%, 32% 100%;
+        background-size: 20% auto, 65% auto;
     }
 
 }
@@ -160,14 +156,14 @@
 @media screen and (min-width: 1200px) {
 
     #seccion-5 {
-        background-image: 
+        background-image:
             linear-gradient(to right, rgba(24, 32, 39, 0) 55%, #E2E9ED),
             linear-gradient(to left, rgba(24, 32, 39, 0) -20%, #E2E9ED),
             url('img/img1seccion5.png'),
             url('img/img2seccion5.png');
-        background-position: 30% 83%, right top;
+        background-position: 30% 83%, 101% top;
         background-repeat: no-repeat;
-        background-size: 18% 20%, 45% 100%;
+        background-size: 18% auto, 47% auto;
     }
 
 }
@@ -327,5 +323,5 @@ p {
     #seccion-6 p {
         font-size: 1.7rem !important;
     }
-    
+
 }
