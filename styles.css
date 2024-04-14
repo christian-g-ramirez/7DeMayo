@@ -44,7 +44,7 @@
 
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399px){
 
     #seccion-3 {
         background-image:
@@ -52,9 +52,54 @@
             linear-gradient(to left, rgba(24, 32, 39, 0) -50%, #182027),
             url('img/img1seccion3.png'),
             url('img/img2seccion3.png');
-        background-position: left 38%, 120% bottom;
+        background-position: left 43%, 130% bottom;
         background-repeat: no-repeat;
-        background-size: 21% auto, 54% auto;
+        background-size: 22% auto, 56% auto;
+    }
+
+}
+
+@media (min-width: 1400px) and (max-width:1599px){
+
+    #seccion-3 {
+        background-image:
+            linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
+            linear-gradient(to left, rgba(24, 32, 39, 0) -50%, #182027),
+            url('img/img1seccion3.png'),
+            url('img/img2seccion3.png');
+        background-position: left 42%, 120% bottom;
+        background-repeat: no-repeat;
+        background-size: 17% auto, 45% auto;
+    }
+
+}
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+
+    #seccion-3 {
+        background-image:
+            linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
+            linear-gradient(to left, rgba(24, 32, 39, 0) -50%, #182027),
+            url('img/img1seccion3.png'),
+            url('img/img2seccion3.png');
+        background-position: left 42%, 108% bottom;
+        background-repeat: no-repeat;
+        background-size: 15% auto, 37% auto;
+    }
+    
+}
+
+@media (min-width: 1800px) {
+
+    #seccion-3 {
+        background-image:
+            linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
+            linear-gradient(to left, rgba(24, 32, 39, 0) -50%, #182027),
+            url('img/img1seccion3.png'),
+            url('img/img2seccion3.png');
+        background-position: left 50%, 108% bottom;
+        background-repeat: no-repeat;
+        background-size: 14% auto, 37% auto;
     }
 
 }
@@ -112,7 +157,7 @@
 
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399px){
 
     #seccion-4 {
         background-image:
@@ -123,6 +168,51 @@
         background-position: left 38%, -1312% top;
         background-repeat: no-repeat;
         background-size: 18% auto, 104% auto;
+    }
+
+}
+
+@media (min-width: 1400px) and (max-width:1599px){
+
+    #seccion-4 {
+        background-image:
+            linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
+            linear-gradient(to left, rgba(24, 32, 39, 0) -50%, #182027),
+            url('img/img2seccion4.png'),
+            url('img/img1seccion4.png');
+        background-position: left 46%, -2310% bottom;
+        background-repeat: no-repeat;
+        background-size: 15% auto, 102% auto;
+    }
+
+}
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+
+    #seccion-4 {
+        background-image:
+            linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
+            linear-gradient(to left, rgba(24, 32, 39, 0) -50%, #182027),
+            url('img/img2seccion4.png'),
+            url('img/img1seccion4.png');
+        background-position: left 50%, 519% bottom;
+        background-repeat: no-repeat;
+        background-size: 14% auto, 90% auto;
+    }
+    
+}
+
+@media (min-width: 1800px) {
+
+    #seccion-4 {
+        background-image:
+            linear-gradient(to left, rgba(24, 32, 39, 0) 1%, #182027),
+            linear-gradient(to left, rgba(24, 32, 39, 0) -50%, #182027),
+            url('img/img2seccion4.png'),
+            url('img/img1seccion4.png');
+        background-position: left 50%, 210% bottom;
+        background-repeat: no-repeat;
+        background-size: 12% auto, 73% auto;
     }
 
 }
@@ -153,7 +243,7 @@
 
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399px){
 
     #seccion-5 {
         background-image:
@@ -164,6 +254,51 @@
         background-position: 30% 83%, 101% top;
         background-repeat: no-repeat;
         background-size: 18% auto, 47% auto;
+    }
+
+}
+
+@media (min-width: 1400px) and (max-width: 1599px){
+
+    #seccion-5 {
+        background-image:
+            linear-gradient(to right, rgba(24, 32, 39, 0) 55%, #E2E9ED),
+            linear-gradient(to left, rgba(24, 32, 39, 0) -20%, #E2E9ED),
+            url('img/img1seccion5.png'),
+            url('img/img2seccion5.png');
+        background-position: 29% 82%, 101% top;
+        background-repeat: no-repeat;
+        background-size: 16% auto, 40% auto;
+    }
+
+}
+
+@media (min-width: 1600px) and (max-width: 1799px){
+
+    #seccion-5 {
+        background-image:
+            linear-gradient(to right, rgba(24, 32, 39, 0) 55%, #E2E9ED),
+            linear-gradient(to left, rgba(24, 32, 39, 0) -20%, #E2E9ED),
+            url('img/img1seccion5.png'),
+            url('img/img2seccion5.png');
+        background-position: 29% 82%, 101% top;
+        background-repeat: no-repeat;
+        background-size: 14% auto, 33% auto;
+    }
+
+}
+
+@media (min-width: 1800px) {
+
+    #seccion-5 {
+        background-image:
+            linear-gradient(to right, rgba(24, 32, 39, 0) 55%, #E2E9ED),
+            linear-gradient(to left, rgba(24, 32, 39, 0) -20%, #E2E9ED),
+            url('img/img1seccion5.png'),
+            url('img/img2seccion5.png');
+        background-position: 28% 82%, 101% top;
+        background-repeat: no-repeat;
+        background-size: 14% auto, 28% auto;
     }
 
 }
@@ -187,16 +322,14 @@ p {
 }
 
 .bordeExterior {
-    border: 3px solid rgb(255, 136, 0);
-    width: 100%;
+    border: 5px solid rgb(255, 136, 0);
     margin: 0% !important;
     padding: 0% !important;
 }
 
 .bordeIntermedio {
     border: 3px solid white;
-    width: 100%;
-    height: 99.9% !important;
+    height: 100%;
     margin: 0%;
     padding: 0%;
 }
@@ -204,7 +337,6 @@ p {
 .bordeInterno {
     border: 3px solid rgb(255, 136, 0);
     width: 100%;
-    height: 99.99%;
     margin: 0%;
     padding: 0%;
 }
