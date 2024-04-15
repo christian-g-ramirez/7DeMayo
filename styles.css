@@ -328,14 +328,14 @@ p {
 }
 
 .bordeIntermedio {
-    border: 3px solid white;
+    border: 4px solid white;
     height: 100%;
     margin: 0%;
     padding: 0%;
 }
 
 .bordeInterno {
-    border: 3px solid rgb(255, 136, 0);
+    border: 4px solid rgb(255, 136, 0);
     width: 100%;
     margin: 0%;
     padding: 0%;
